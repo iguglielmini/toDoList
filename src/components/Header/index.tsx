@@ -1,13 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
 
-// import { Container } from './styles';
+import LogoImg from '../../assets/Logo.png';
+import * as S from './styles';
 
 const Header: React.FC = () => {
   return (
-    <View>
-        <Text>Home</Text>
-    </View>
+    <S.Container>
+        <S.Image source={LogoImg} />
+    </S.Container>
   );
 }
 
